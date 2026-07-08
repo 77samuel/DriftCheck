@@ -1,0 +1,24 @@
+=== PHASE 4 RESULTS ===
+
+Candidate matrix shape: (150, 4)
+Stable matrix shape: (150, 4)
+
+Rasch difficulty (candidates) describe:
+count    150.000000
+mean      -1.307401
+std        2.681430
+min       -5.999939
+25%       -1.314934
+50%       -0.000008
+75%       -0.000008
+max        1.314891
+
+Drift validation summary:
+                     metric        value
+mean_abs_dif_candidates_reg 4.349804e-01
+    mean_abs_dif_stable_reg 2.904154e-01
+             mann_whitney_p 2.419898e-28
+        n_candidates_tested 1.500000e+02
+            n_stable_tested 1.500000e+02
+
+Phase 1 provides psychometric validation of candidate drift items under a limited longitudinal sample of model generations. Regularized (approximate Firth-style) logistic regression is used throughout (both candidate and stable groups) due to quasi-complete separation with sparse per-item observations. Results should be read as evidence supporting further investigation, not as definitive population-level DIF.

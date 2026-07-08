@@ -1,0 +1,6 @@
+metric,value
+mean_abs_dif_candidates_reg,0.4349804086287853
+mean_abs_dif_stable_reg,0.29041537267298856
+mann_whitney_p,2.4198980556613755e-28
+n_candidates_tested,150.0
+n_stable_tested,150.0
